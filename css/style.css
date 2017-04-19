@@ -1,0 +1,51 @@
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+#header-wrapper {
+    background-image: url("../images/header.jpg");
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+#header-wrapper a {
+    font: 70px "Times New Roman", Times, serif;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+footer {
+    padding-top: 20px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+#address {
+    float: left;
+}
+#map {
+    float: right;
+}
+.painting {
+    cursor: pointer;
+}
